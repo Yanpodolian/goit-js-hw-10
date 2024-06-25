@@ -24,7 +24,7 @@ const options = {
             iziToast.error({
                 title: 'Error',
                 message: 'Please choose a date in the future',
-                position: 'topRight' // Set position to top right
+                position: 'topRight' 
             });
             startButton.disabled = true;
         } else {

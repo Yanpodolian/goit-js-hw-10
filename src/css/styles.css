@@ -1,7 +1,7 @@
 
 @import url('./reset.css');
 @import url('./vite-promo.css');
-@import url('./header.css');
+/* @import url('./header.css'); */
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -16,7 +16,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* -webkit-text-size-adjust: 100%; */
+
 }
 
 .timer-wrapper {
@@ -119,7 +119,7 @@ button[data-start]:disabled {
   background-color: #218838;
 }
 
-  /* ---------------------- */
+
 .iziToast {
   position: fixed;
   top: 20px;
